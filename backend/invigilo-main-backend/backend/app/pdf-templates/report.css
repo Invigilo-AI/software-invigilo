@@ -1,0 +1,106 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;0,400;1,400;0,500;1,500;0,600;1,600;0,700;1,700;0,800;1,800&display=swap"); */
+
+@page {
+  size: A4;
+  margin: 1.2cm;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+th, td {
+    vertical-align: top;
+}
+
+tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.company-logo-cell {
+  width: 40%;
+  padding-right: 5mm;
+}
+.company-logo {
+  width: 100%;
+}
+
+.company-title {
+  color: black;
+  font-weight: 700;
+}
+
+.report-header {
+
+}
+
+.report-label {
+    font-weight: 500;
+}
+
+.report-value {
+    font-family: monospace, sans-serif;
+}
+
+.incident-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.incident-table th {
+  font-weight: 600;
+  background: lightgray;
+  border: 1px solid darkgray;
+}
+.incident-table td {
+  border: 1px solid darkgray;
+}
+
+.incident-col-id {
+  width: 10%;
+}
+
+.incident-col-details {
+  width: 55%;
+}
+
+.incident-col-attachment {
+  width: 35%;
+}
+.incident-frame {
+  width: 100%;
+}
+
+.incident-description {
+  width: 100%;
+}
+.incident-description td {
+  border: 0;
+}
+
+.description-label {
+  width: 33%;
+  font-weight: 600;
+}
+
+.description-value-uuid {
+  font-family: monospace;
+  font-size: 0.75em;
+  line-height: 1em;
+}
+
+.report-graphs {
+  break-after: always;
+}
+
+.report-graphs img {
+  max-width: 100%
+}
+
+.incident-list-title {
+  color: black;
+  font-weight: 700;
+}
